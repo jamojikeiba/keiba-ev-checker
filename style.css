@@ -1,0 +1,38 @@
+:root{font-family:"Arial Rounded MT Bold","Hiragino Maru Gothic ProN","Yu Gothic",Meiryo,system-ui,sans-serif;color:#202638;background:#fffaf3;font-synthesis:none}*{box-sizing:border-box}body{margin:0;font-weight:700}button,input,select,textarea{font:inherit}button{cursor:pointer}.wrap{max-width:1200px;margin:0 auto;padding:0 20px}.top{background:#fff;border-bottom:4px solid #ffcd5b;padding:30px 0 24px}.eyebrow{font-size:12px;letter-spacing:.16em;color:#8c6870;font-weight:900}.top h1{font-size:clamp(24px,4vw,40px);margin:8px 0;font-weight:900;letter-spacing:-.04em}.top h1 span{color:#ed6952}.top p{margin:0;color:#5c6474;font-size:14px}main{padding-top:24px!important}.panel{background:#fff;border:1px solid #eae5de;border-radius:18px;box-shadow:0 5px 18px #413c3310;padding:22px;margin-bottom:18px}.intro{display:flex;align-items:center;justify-content:space-between;gap:20px;background:#fff3da}.tag{display:inline-block;background:#ffda76;padding:5px 10px;border-radius:20px;font-size:12px}.intro h2{font-size:25px;margin:10px 0 6px}.intro p{font-size:14px;line-height:1.8;margin:0;font-weight:600}.example{background:#fff;padding:16px 24px;border-radius:15px;min-width:165px;text-align:center;display:flex;flex-direction:column;gap:3px}.example span{font-size:12px;color:#686f7c}.example strong{font-size:32px;color:#ea5b48}.example small{font-size:15px}.sectionHead{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-bottom:16px}.sectionHead h2{font-size:20px;margin:0}.sectionHead p{margin:5px 0 0;font-size:12px}.muted{color:#737b89;font-size:12px}.pickGrid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.pickGrid label{font-size:12px;color:#697181}.pickGrid select{width:100%;margin-top:6px;padding:12px;border-radius:10px;border:2px solid #e8e9ee;background:#fff;font-weight:900;color:#252a36}#raceTitle{font-size:19px;margin:18px 0 0;color:#de5b46}.total{padding:12px 14px;background:#f5f7fb;border-radius:10px;font-size:13px;margin-bottom:12px}.total.warning{background:#fff0e9;color:#b33f2d}.tableScroll{overflow-x:auto}table{border-collapse:collapse;width:100%;min-width:850px}th{text-align:left;font-size:12px;color:#687081;background:#f6f7fa;padding:12px 9px;white-space:nowrap}td{border-bottom:1px solid #eef0f3;padding:12px 9px;vertical-align:middle;font-size:14px}tr:last-child td{border-bottom:none}.horseName{font-weight:900;min-width:145px}.numberBadge{display:grid;place-items:center;width:40px;height:40px;border-radius:10px;font-size:19px;font-weight:900;border:1px solid #00000016}.w1{background:#fff;color:#161616;border:2px solid #bfc4ce}.w2{background:#24272e;color:white}.w3{background:#e84d4d;color:white}.w4{background:#4385dd;color:white}.w5{background:#ffdb46;color:#171717}.w6{background:#3aab5e;color:white}.w7{background:#e79c45;color:#171717}.w8{background:#e995c6;color:#171717}.probControls{display:flex;gap:5px;align-items:center;white-space:nowrap}.probControls select{padding:10px 5px;border:2px solid #dfe3ec;border-radius:9px;background:white;font-weight:900;color:#232a38}.probControls .fine{width:62px}.fairHead{color:#dd6149}.fairValue{display:inline-block;background:#fff0d2;color:#b94628;padding:9px 12px;border-radius:10px;font-size:20px;font-weight:900;white-space:nowrap;min-width:98px;text-align:center}.fairEmpty{color:#a2a6b0}.oddsInput{width:100px;padding:10px;border:2px solid #e4e7ed;border-radius:9px;background:#fff}.optional{font-size:10px;color:#9299a4}.roi{font-weight:900;font-size:16px;white-space:nowrap}.positive{color:#15835b}.negative{color:#c34b4b}.neutral{color:#858d9c}.primary{background:#ec6750;color:white;border:0;padding:12px 18px;border-radius:10px;font-weight:900}.ghost{background:white;border:2px solid #e6e8ee;border-radius:10px;padding:10px 13px;color:#434b5b;font-size:12px}.danger{color:#b95353}.footerActions{margin-top:12px;text-align:right}.bulk{padding:0;overflow:hidden}.bulk summary{padding:20px 22px;cursor:pointer;font-size:16px;list-style-position:inside}.bulk summary span{font-size:12px;color:#818995;margin-left:8px}.bulkInner{border-top:1px solid #eee;padding:18px 22px}.bulkInner p{font-size:13px;color:#697181}.bulk textarea{width:100%;resize:vertical;border:2px solid #e4e7ed;border-radius:10px;padding:12px;line-height:1.6}.bulkActions{display:flex;align-items:center;gap:15px;margin-top:12px;flex-wrap:wrap}#pasteMessage{font-size:13px;color:#58715e}.notice{font-size:12px;line-height:1.9;color:#747c8b;margin:16px 4px}.foot{font-size:12px;color:#8b919c;padding-top:12px;padding-bottom:35px;text-align:center}@media(max-width:700px){.wrap{padding-left:12px;padding-right:12px}.top{padding:22px 0}.panel{padding:16px;border-radius:14px}.intro{align-items:stretch}.example{min-width:115px;padding:12px}.example strong{font-size:25px}.intro h2{font-size:21px}.pickGrid{gap:7px}.pickGrid select{padding:10px 4px;font-size:12px}.sectionHead h2{font-size:17px}.tableScroll{margin:0 -8px}.bulk summary{padding:16px}.bulkInner{padding:15px}}
+
+/* Ver.4: スマートフォンは横スクロール表ではなく馬ごとのカード表示 */
+@media(max-width:700px){
+ .intro{flex-direction:column;gap:12px}
+ .example{min-width:0;flex-direction:row;justify-content:space-between;align-items:center}
+ .example strong{font-size:25px}
+ .pickGrid{grid-template-columns:1fr 1fr}
+ .pickGrid label:first-child{grid-column:1/-1}
+ .tableScroll{overflow:visible;margin:0}
+ table,tbody{display:block;width:100%;min-width:0}
+ thead{display:none}
+ tbody tr{display:grid;grid-template-columns:48px minmax(0,1fr);gap:0 10px;background:#fff;border:1px solid #e6e9f0;border-radius:14px;padding:12px;margin:0 0 12px;box-shadow:0 3px 10px #2830440b}
+ tbody td{display:block;border:0;padding:0;min-width:0}
+ tbody td:nth-child(1){grid-column:1;grid-row:1;align-self:center}
+ tbody td:nth-child(2){grid-column:2;grid-row:1;align-self:center;font-size:16px;min-width:0;overflow-wrap:anywhere}
+ tbody td:nth-child(n+3){grid-column:1/-1;display:flex;justify-content:space-between;align-items:center;gap:12px;padding:11px 0;border-top:1px solid #eef0f4}
+ tbody td:nth-child(3){margin-top:12px}
+ tbody td:nth-child(n+3)::before{flex:0 0 auto;font-size:12px;font-weight:800;color:#5b6475}
+ tbody td:nth-child(3)::before{content:'推定勝率'}
+ tbody td:nth-child(4)::before{content:'損益分岐オッズ'}
+ tbody td:nth-child(5)::before{content:'単勝オッズ（任意）'}
+ tbody td:nth-child(6)::before{content:'期待回収率'}
+ .probControls{justify-content:flex-end;white-space:normal}
+ .probControls select{padding:10px 7px;min-height:44px}
+ .probControls .fine{width:65px}
+ .oddsInput{width:115px;max-width:100%;min-height:44px;text-align:right}
+ .fairValue{font-size:23px;min-width:112px}
+ .roi{font-size:18px}
+ .numberBadge{width:44px;height:44px}
+ .sectionHead{align-items:flex-start}
+}
+@media(max-width:360px){
+ .panel{padding:12px}
+ tbody tr{padding:10px}
+ .probControls select{font-size:13px;padding:8px 4px}
+ .fairValue{font-size:20px}
+}
