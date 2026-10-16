@@ -2803,96 +2803,91 @@
       "date": "2026-10-18",
       "venue": "京都",
       "race": 11,
-      "name": "秋華賞G1【仮登録・テスト】",
+      "name": "秋華賞G1",
       "horses": [
         {
-          "frame": 0,
+          "frame": 1,
           "number": 1,
-          "name": "エンネ"
-        },
-        {
-          "frame": 0,
-          "number": 2,
-          "name": "カナルサンマルタン"
-        },
-        {
-          "frame": 0,
-          "number": 3,
-          "name": "ガーネットフレア"
-        },
-        {
-          "frame": 0,
-          "number": 4,
           "name": "ギャラボーグ"
         },
         {
-          "frame": 0,
-          "number": 5,
-          "name": "サムシングスイート"
-        },
-        {
-          "frame": 0,
-          "number": 6,
-          "name": "スウィートハピネス"
-        },
-        {
-          "frame": 0,
-          "number": 7,
-          "name": "スマートプリエール"
-        },
-        {
-          "frame": 0,
-          "number": 8,
-          "name": "タイセイボーグ"
-        },
-        {
-          "frame": 0,
-          "number": 9,
+          "frame": 1,
+          "number": 2,
           "name": "テイエムアイラン"
         },
         {
-          "frame": 0,
-          "number": 10,
-          "name": "ドリームコア"
-        },
-        {
-          "frame": 0,
-          "number": 11,
-          "name": "ナイスプレーアスク"
-        },
-        {
-          "frame": 0,
-          "number": 12,
-          "name": "ハヤブササキチャン"
-        },
-        {
-          "frame": 0,
-          "number": 13,
-          "name": "バースデイフライト"
-        },
-        {
-          "frame": 0,
-          "number": 14,
-          "name": "フェスティバルヒル"
-        },
-        {
-          "frame": 0,
-          "number": 15,
+          "frame": 2,
+          "number": 3,
           "name": "マスターソアラ"
         },
         {
-          "frame": 0,
-          "number": 16,
-          "name": "モンローウォーク"
+          "frame": 2,
+          "number": 4,
+          "name": "エンネ"
         },
         {
-          "frame": 0,
-          "number": 17,
+          "frame": 3,
+          "number": 5,
+          "name": "タイセイボーグ"
+        },
+        {
+          "frame": 3,
+          "number": 6,
           "name": "ラベルセーヌ"
         },
         {
-          "frame": 0,
-          "number": 18,
+          "frame": 4,
+          "number": 7,
+          "name": "バースデイフライト"
+        },
+        {
+          "frame": 4,
+          "number": 8,
+          "name": "モンローウォーク"
+        },
+        {
+          "frame": 5,
+          "number": 9,
+          "name": "スウィートハピネス"
+        },
+        {
+          "frame": 5,
+          "number": 10,
+          "name": "ナイスプレーアスク"
+        },
+        {
+          "frame": 6,
+          "number": 11,
+          "name": "ガーネットフレア"
+        },
+        {
+          "frame": 6,
+          "number": 12,
+          "name": "カナルサンマルタン"
+        },
+        {
+          "frame": 7,
+          "number": 13,
+          "name": "ドリームコア"
+        },
+        {
+          "frame": 7,
+          "number": 14,
+          "name": "サムシングスイート"
+        },
+        {
+          "frame": 8,
+          "number": 15,
+          "name": "フェスティバルヒル"
+        },
+        {
+          "frame": 8,
+          "number": 16,
+          "name": "ハヤブササキチャン"
+        },
+        {
+          "frame": 8,
+          "number": 17,
           "name": "ロザーンジュ"
         }
       ]
